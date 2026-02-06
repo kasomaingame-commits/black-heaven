@@ -1,0 +1,126 @@
+/* = = = = = = = = = = = = = = = = = = = = = = = =
+   General Styling
+= = = = = = = = = = = = = = = = = = = = = = = = 
+/* Reset dasar */
+html, body { 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family:'Arial', sans-serif;
+    bacground-color: #0d0d0d;
+    color: #f2f2f2;
+}
+
+/* Body Flexbox untuk layout profesional */
+
+body {
+    display: flex;
+    flex-dirextion: column;
+    justify-content: space-between; /* konten utama tetap tengah, footer tetap bawah */
+    
+    align-items: center;
+    min-height: 100vh; /* tinggi body 100% layar */
+    
+    text-align: center; /* teks center horizontal 
+
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = =
+   Header / Main Title
+= = = = = = = = = = = = = = = = = = = = = = = = */
+h1 {
+    color: #ff4c4c;
+accent */
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3em;
+    letter-spacing: 2px; 
+}
+
+/* Subheaading */
+h2 {
+    text-align: center;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400
+    font-size: 1.5em;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = =
+   Paragraph Styling
+= = = = = = = = = = = = = = = = = = = = = = = =
+p {
+   max-widht: 800px;
+   margin: 20px auto;
+   font-size: 18px;
+   text-align: center;
+   line-height: 1.8;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = =
+   Images Styling
+= = = = = = = = = = = = = = = = = = = = = = = =
+.hero-img {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 4px 20x rgba(255, 76, 76, 0.5);
+    transition: transform 0.3s ease;
+}
+.hero-img:hover {
+    transform: scale(1.05);
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = 
+   Footer Styling
+= = = = = = = = = = = = = = = = = = = = = = = =
+footer {
+    text-align: center;
+    padding: 20 px:
+    bakground-color: #111;
+    color : #888
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = 
+   Links Styling
+= = = = = = = = = = = = = = = = = = = = = = = =
+a {
+   text-alignt: center;
+   color: #ff4c4c;
+   text-decoration: none;
+   transition: color 0.3s ease;
+}
+
+a:hover {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = =
+   Resfonsive
+= = = = = = = = = = = = = = = = = = = = = = = = */
+@media screen and(max-widht: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    p {
+       font-size: 16px; 
+       padding: 0 10px;
+    }
+    
+    .hero-img {
+        max-widht: 160%;
+    }
+    
+    .hero-img {
+        max-widht: 160%;
+    }
+}
+
